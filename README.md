@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+Real-World+Web+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+Real-World+Applications" alt="Typing SVG" />
 
   <p align="center">
     <code>APPLICATION DEVELOPER | NEXT.JS SPECIALIST | UI/UX ENTHUSIAST</code>
