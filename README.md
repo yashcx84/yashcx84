@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=764BA2&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+real-world+web+products" alt="Typing SVG" />
 
-  <h3>Full-Stack Developer | Next.js Specialist | UI/UX Enthusiast</h3>
+  <h3>Application Developer | Next.js Specialist | UI/UX Enthusiast</h3>
 
   <p>
     <a href="https://yash-jangid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%23121011.svg?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
@@ -12,7 +12,7 @@
 
 ---
 
-### 🛠️ My Tech Toolbox
+### TECHSTACK I USE
 
 | Frontend | Backend | Tools & UI |
 | :--- | :--- | :--- |
@@ -23,7 +23,7 @@
 
 ---
 
-### 📈 Activity & Stats
+### ACTIVITY
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yashcx84&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
