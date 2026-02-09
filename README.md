@@ -28,18 +28,10 @@
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yashcx84&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=yashcx84&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="60%" />
 </div>
----
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
+---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=yashcx84&label=Profile%20views&color=0e75b6&style=flat" alt="Views" />
