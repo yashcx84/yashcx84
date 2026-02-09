@@ -27,14 +27,11 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&color=FFFFFF&center=true&vCenter=true&width=400&lines=ACTIVITY" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&color=FFFFFF&center=true&vCenter=true&width=400&lines=ACTIVITY+%26+STATS" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yashcx84&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="48%" />
-  <br/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=yashcx84&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="50%" />
 </div>
 
 ---
