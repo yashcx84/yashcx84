@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+real-world+web+products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+Real-World+Web+Applications" alt="Typing SVG" />
 
   <p align="center">
     <code>APPLICATION DEVELOPER | NEXT.JS SPECIALIST | UI/UX ENTHUSIAST</code>
@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,nodejs,mongodb,tailwind,bootstrap,figma,git,github,postman,vercel&perline=5" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,nodejs,mongodb,docker,ubuntu,linux,nginx,npm,tailwind,bootstrap,figma,git,github,postman,vercel,notion&perline=6" />
   </a>
 </p>
 
