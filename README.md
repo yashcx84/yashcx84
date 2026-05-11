@@ -2,13 +2,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+Real-World+Applications" alt="Typing SVG" />
 
   <p align="center">
-    <code>APPLICATION DEVELOPER | NEXT.JS SPECIALIST | UI/UX ENTHUSIAST</code>
+    <code>WEB APP DEVELOPER | NEXTJS • ASTRO | UI/UX ENTHUSIAST</code>
   </p>
 
   <p align="center">
-    <a href="https://yash-jangid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%2312101.svg?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-    <a href="mailto:yashcx84@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://linkedin.com/in/yashcx84"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://yash-jangid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-712bfb?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+    <a href="mailto:yashcx84@gmail.com"><img src="https://img.shields.io/badge/Email-fb592b?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/yashcx84"><img src="https://img.shields.io/badge/LinkedIn-2b6bfb?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 </div>
 
