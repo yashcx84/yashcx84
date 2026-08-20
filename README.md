@@ -9,6 +9,7 @@
     <a href="https://yash-jangid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-712bfb?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
     <a href="mailto:yashcx84@gmail.com"><img src="https://img.shields.io/badge/Email-fb592b?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://linkedin.com/in/yashcx84"><img src="https://img.shields.io/badge/LinkedIn-2b6bfb?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://www.codefuez.in"><img src="https://img.shields.io/badge/Agency-44BB00?style=for-the-badge&logo=company&logoColor=white" /></a>
   </p>
 </div>
 
