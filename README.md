@@ -13,6 +13,10 @@
   </p>
 </div>
 
+<p align="center">
+  <i>"Engineering scalable architectures, intuitive interfaces, and blazing-fast web experiences for modern businesses."</i>
+</p>
+
 ---
 
 <div align="center">
@@ -83,13 +87,29 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yashcx84&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D99B2A&text_color=9CA3AF&icon_color=3B82F6" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashcx84&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D99B2A&text_color=9CA3AF" width="48%" />
+</div>
+
+<div align="center" style="margin-top: 10px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="55%" />
 </div>
 
 ---
 
-<p align="center">
+<div align="center">
+  <p><b>🤝 LET'S COLLABORATE & BUILD SOMETHING EXTRAORDINARY</b></p>
+  <p align="center">
+    <a href="https://wa.me/919610160500"><img src="https://img.shields.io/badge/WhatsApp-Start_a_Project-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+    <a href="https://www.codefuez.in"><img src="https://img.shields.io/badge/Agency-Codefuez-44BB00?style=for-the-badge&logo=codewars&logoColor=white" /></a>
+    <a href="mailto:yashcx84@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-FB592B?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </p>
+</div>
+
+---
+
+<div align="center">
   <code>LEARNING • BUILDING • UPGRADING</code>
   <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=yashcx84&label=Profile%20views&color=764ba2&style=flat-square" alt="Views" />
-</p>
+  <img src="https://komarev.com/ghpvc/?username=yashcx84&label=Profile%20views&color=D99B2A&style=flat-square" alt="Views" />
+</div>
