@@ -31,6 +31,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&color=FFFFFF&center=true&vCenter=true&width=400&lines=LIVE+BUSINESS+PROJECTS" />
 </div>
 
+<!-- DOMAIN-STATS-START -->
 <div align="center">
 
 | Category / Section | Repository Count |
@@ -43,6 +44,7 @@
 | **Total Repositories with Live Business Domains** | **66** |
 
 </div>
+<!-- DOMAIN-STATS-END -->
 
 ---
 
