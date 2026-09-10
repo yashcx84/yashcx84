@@ -39,7 +39,7 @@
 <div align="center">
 
   <p align="center">
-    <img src="https://img.shields.io/badge/PRODUCTION_DEPLOYMENTS-2_LIVE_SITES-00C853?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0D1117" />
+    <img src="https://img.shields.io/badge/PRODUCTION_DEPLOYMENTS-66_LIVE_SITES-00C853?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0D1117" />
   </p>
 
   <table align="center">
@@ -52,27 +52,27 @@
     <tbody>
       <tr>
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/hotel.svg?color=%23d99b2a" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Hotels, Resorts & Luxury Stays</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/0_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/20_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" /></td>
       </tr>
       <tr>
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/compass.svg?color=%233b82f6" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Tours, Travel & Holiday Packages</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/2_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/16_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" /></td>
       </tr>
       <tr>
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/server.svg?color=%238b5cf6" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Tech Systems, Agency & Backend APIs</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/0_Live-8B5CF6?style=for-the-badge&logo=server&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/12_Live-8B5CF6?style=for-the-badge&logo=server&logoColor=white" /></td>
       </tr>
       <tr>
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/shopping-bag.svg?color=%23ec4899" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Lifestyle, E-Commerce & Brands</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/0_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/10_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" /></td>
       </tr>
       <tr>
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/bike.svg?color=%2310b981" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Bike & Taxi Fleet Rentals</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/0_Live-10B981?style=for-the-badge&logo=speedtest&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/8_Live-10B981?style=for-the-badge&logo=speedtest&logoColor=white" /></td>
       </tr>
       <tr bgcolor="#161b22">
         <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/globe-2.svg?color=%2300c853" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Total Live Business Domains</b>&nbsp;&nbsp;</td>
-        <td align="center"><img src="https://img.shields.io/badge/2_Total-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" /></td>
+        <td align="center"><img src="https://img.shields.io/badge/66_Total-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" /></td>
       </tr>
     </tbody>
   </table>
@@ -92,6 +92,10 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yashcx84/yashcx84/output/github-contribution-grid-snake.svg" />
     <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yashcx84/yashcx84/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
+</div>
+
+<div align="center" style="margin-top: 15px;">
+  <img src="https://raw.githubusercontent.com/yashcx84/yashcx84/output/3d/profile-night-view.svg" width="100%" alt="3D Contribution Graph" />
 </div>
 
 <div align="center" style="margin-top: 15px;">
