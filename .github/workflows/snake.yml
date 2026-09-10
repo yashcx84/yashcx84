@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Activity Graph
-        uses: Ashutosh00710/github-readme-activity-graph@v1.0.0
+        uses: Ashutosh00710/github-readme-activity-graph@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: yashcx84
