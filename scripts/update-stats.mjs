@@ -83,14 +83,14 @@ async function main() {
   const tableMarkdown = `<!-- DOMAIN-STATS-START -->
 <div align="center">
 
-| Sector | Live Projects |
-| :-- | :-: |
-| 🏨 &nbsp; **Hotels & Luxury Stays** | \`${counts.hotels}\` |
-| ✈️ &nbsp; **Tours & Travel Experiences** | \`${counts.tours}\` |
-| 💼 &nbsp; **Tech Systems & Backend APIs** | \`${counts.tech}\` |
-| 🛍️ &nbsp; **E-Commerce & Consumer Brands** | \`${counts.lifestyle}\` |
-| 🛵 &nbsp; **Fleet & Mobility Rentals** | \`${counts.rentals}\` |
-| **Total Production Domains** | **\`${total} Live Sites\`** |
+| Category / Section | Repository Count |
+| :--- | :---: |
+| 🏨 Hotels, Resorts & Stays | **${counts.hotels}** |
+| ✈️ Tours & Travel | **${counts.tours}** |
+| 💼 Tech, Real Estate, Agency & Backend APIs | **${counts.tech}** |
+| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **${counts.lifestyle}** |
+| 🛵 Bike & Taxi Rentals | **${counts.rentals}** |
+| **Total Repositories with Live Business Domains** | **${total}** |
 
 </div>
 <!-- DOMAIN-STATS-END -->`;
@@ -106,7 +106,7 @@ async function main() {
 
   const updatedContent = content.replace(regex, tableMarkdown);
   fs.writeFileSync(readmePath, updatedContent, 'utf8');
-  console.log('README.md successfully updated with clean minimal stats table');
+  console.log('README.md successfully updated with simple counts table');
 }
 
 main().catch(err => {
