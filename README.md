@@ -87,12 +87,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yashcx84&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D99B2A&text_color=9CA3AF&icon_color=3B82F6" width="48%" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashcx84&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D99B2A&text_color=9CA3AF" width="48%" />
-</div>
-
-<div align="center" style="margin-top: 10px;">
-  <img src="https://streak-stats.demolab.com?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="55%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashcx84&theme=tokyonight&hide_border=true&background=0D1117" width="50%" />
 </div>
 
 ---
