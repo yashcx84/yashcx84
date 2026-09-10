@@ -34,62 +34,14 @@
 <!-- DOMAIN-STATS-START -->
 <div align="center">
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/TOTAL_PRODUCTION_DEPLOYMENTS-66_LIVE_DOMAINS-00C853?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0D1117" />
-  </p>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/Hotels_%26_Resorts-20_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tours_%26_Travel-16_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tech_%26_APIs-12_Live-8B5CF6?style=for-the-badge&logo=fastapi&logoColor=white" />
-    <br/>
-    <img src="https://img.shields.io/badge/Lifestyle_%26_Brands-10_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" />
-    <img src="https://img.shields.io/badge/Rentals_%26_Fleet-8_Live-10B981?style=for-the-badge&logo=motorcycle&logoColor=white" />
-  </p>
-
-  <br/>
-
-  <table>
-    <thead>
-      <tr bgcolor="#161b22">
-        <th align="left"><b>🏷️ Industry Sector</b></th>
-        <th align="center"><b>📊 Live Projects</b></th>
-        <th align="left"><b>📈 Distribution Share</b></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>🏨 <b>Hotels, Resorts & Luxury Stays</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/20_Deployed-D99B2A?style=flat-square&logo=hotel&logoColor=white" /></td>
-        <td><code>█████████░░░░░░░░░░░</code> <b>30.3%</b></td>
-      </tr>
-      <tr>
-        <td>✈️ <b>Tours, Travel & Holiday Packages</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/16_Deployed-3B82F6?style=flat-square&logo=compass&logoColor=white" /></td>
-        <td><code>███████░░░░░░░░░░░░░</code> <b>24.2%</b></td>
-      </tr>
-      <tr>
-        <td>💼 <b>Tech Ecosystem, Agency & Backend APIs</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/12_Deployed-8B5CF6?style=flat-square&logo=server&logoColor=white" /></td>
-        <td><code>█████░░░░░░░░░░░░░░░</code> <b>18.2%</b></td>
-      </tr>
-      <tr>
-        <td>🛍️ <b>Lifestyle, E-Commerce & D2C Brands</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/10_Deployed-EC4899?style=flat-square&logo=shopify&logoColor=white" /></td>
-        <td><code>████░░░░░░░░░░░░░░░░</code> <b>15.2%</b></td>
-      </tr>
-      <tr>
-        <td>🛵 <b>Bike & Taxi Fleet Rentals</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/8_Deployed-10B981?style=flat-square&logo=speedtest&logoColor=white" /></td>
-        <td><code>███░░░░░░░░░░░░░░░░░</code> <b>12.1%</b></td>
-      </tr>
-      <tr bgcolor="#161b22">
-        <td>✨ <b>Total Active Business Deployments</b></td>
-        <td align="center"><img src="https://img.shields.io/badge/66_Active-00C853?style=flat-square&logo=checkmarx&logoColor=white" /></td>
-        <td><b><code>100% PRODUCTION VERIFIED</code></b></td>
-      </tr>
-    </tbody>
-  </table>
+| Sector | Live Projects |
+| :-- | :-: |
+| 🏨 &nbsp; **Hotels & Luxury Stays** | 20 |
+| ✈️ &nbsp; **Tours & Travel Experiences** | 16 |
+| 💼 &nbsp; **Tech Systems & Backend APIs** | 12 |
+| 🛍️ &nbsp; **E-Commerce & Consumer Brands** | 10 |
+| 🛵 &nbsp; **Fleet & Mobility Rentals** | 8 |
+| **Total Production Domains** | **66 Live Sites** |
 
 </div>
 <!-- DOMAIN-STATS-END -->
