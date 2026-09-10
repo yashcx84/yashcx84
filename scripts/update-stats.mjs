@@ -83,14 +83,44 @@ async function main() {
   const tableMarkdown = `<!-- DOMAIN-STATS-START -->
 <div align="center">
 
-| Category / Section | Repository Count |
-| :--- | :---: |
-| 🏨 Hotels, Resorts & Stays | **${counts.hotels}** |
-| ✈️ Tours & Travel | **${counts.tours}** |
-| 💼 Tech, Real Estate, Agency & Backend APIs | **${counts.tech}** |
-| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **${counts.lifestyle}** |
-| 🛵 Bike & Taxi Rentals | **${counts.rentals}** |
-| **Total Repositories with Live Business Domains** | **${total}** |
+  <p align="center">
+    <img src="https://img.shields.io/badge/PRODUCTION_DEPLOYMENTS-${total}_LIVE_SITES-00C853?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0D1117" />
+  </p>
+
+  <table align="center">
+    <thead>
+      <tr bgcolor="#161b22">
+        <th align="left">&nbsp;&nbsp;<b>Industry Sector</b>&nbsp;&nbsp;</th>
+        <th align="center">&nbsp;&nbsp;<b>Active Repositories</b>&nbsp;&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&nbsp;&nbsp;🏨 <b>Hotels, Resorts & Luxury Stays</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${counts.hotels}_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;✈️ <b>Tours, Travel & Holiday Packages</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${counts.tours}_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;💼 <b>Tech Systems, Agency & Backend APIs</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${counts.tech}_Live-8B5CF6?style=for-the-badge&logo=server&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;🛍️ <b>Lifestyle, E-Commerce & Brands</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${counts.lifestyle}_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;🛵 <b>Bike & Taxi Fleet Rentals</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${counts.rentals}_Live-10B981?style=for-the-badge&logo=speedtest&logoColor=white" /></td>
+      </tr>
+      <tr bgcolor="#161b22">
+        <td>&nbsp;&nbsp;🌐 <b>Total Live Business Domains</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/${total}_Total-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" /></td>
+      </tr>
+    </tbody>
+  </table>
 
 </div>
 <!-- DOMAIN-STATS-END -->`;
@@ -106,7 +136,7 @@ async function main() {
 
   const updatedContent = content.replace(regex, tableMarkdown);
   fs.writeFileSync(readmePath, updatedContent, 'utf8');
-  console.log('README.md successfully updated with simple counts table');
+  console.log('README.md successfully updated with modern badge table');
 }
 
 main().catch(err => {
