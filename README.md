@@ -95,7 +95,7 @@
 <div align="center">
   <p><b>🤝 LET'S COLLABORATE & BUILD SOMETHING EXTRAORDINARY</b></p>
   <p align="center">
-    <a href="https://wa.me/919610160500"><img src="https://img.shields.io/badge/WhatsApp-Start_a_Project-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+    <a href="https://wa.me/916350229611"><img src="https://img.shields.io/badge/WhatsApp-Start_a_Project-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
     <a href="https://www.codefuez.in"><img src="https://img.shields.io/badge/Agency-Codefuez-44BB00?style=for-the-badge&logo=codewars&logoColor=white" /></a>
     <a href="mailto:yashcx84@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-FB592B?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   </p>
