@@ -96,27 +96,27 @@ async function main() {
     </thead>
     <tbody>
       <tr>
-        <td>&nbsp;&nbsp;🏨 <b>Hotels, Resorts & Luxury Stays</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/hotel.svg?color=%23d99b2a" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Hotels, Resorts & Luxury Stays</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${counts.hotels}_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" /></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;✈️ <b>Tours, Travel & Holiday Packages</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/compass.svg?color=%233b82f6" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Tours, Travel & Holiday Packages</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${counts.tours}_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" /></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;💼 <b>Tech Systems, Agency & Backend APIs</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/server.svg?color=%238b5cf6" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Tech Systems, Agency & Backend APIs</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${counts.tech}_Live-8B5CF6?style=for-the-badge&logo=server&logoColor=white" /></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;🛍️ <b>Lifestyle, E-Commerce & Brands</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/shopping-bag.svg?color=%23ec4899" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Lifestyle, E-Commerce & Brands</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${counts.lifestyle}_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" /></td>
       </tr>
       <tr>
-        <td>&nbsp;&nbsp;🛵 <b>Bike & Taxi Fleet Rentals</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/bike.svg?color=%2310b981" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Bike & Taxi Fleet Rentals</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${counts.rentals}_Live-10B981?style=for-the-badge&logo=speedtest&logoColor=white" /></td>
       </tr>
       <tr bgcolor="#161b22">
-        <td>&nbsp;&nbsp;🌐 <b>Total Live Business Domains</b>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;<img src="https://api.iconify.design/lucide/globe-2.svg?color=%2300c853" width="18" height="18" valign="middle" />&nbsp;&nbsp;<b>Total Live Business Domains</b>&nbsp;&nbsp;</td>
         <td align="center"><img src="https://img.shields.io/badge/${total}_Total-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" /></td>
       </tr>
     </tbody>
@@ -136,7 +136,7 @@ async function main() {
 
   const updatedContent = content.replace(regex, tableMarkdown);
   fs.writeFileSync(readmePath, updatedContent, 'utf8');
-  console.log('README.md successfully updated with modern badge table');
+  console.log('README.md successfully updated with SVG vector icons table');
 }
 
 main().catch(err => {
