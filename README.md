@@ -36,12 +36,12 @@
 
 | Category / Section | Repository Count |
 | :--- | :---: |
-| 🏨 Hotels, Resorts & Stays | **0** |
-| ✈️ Tours & Travel | **0** |
-| 🛵 Bike & Taxi Rentals | **0** |
-| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **0** |
-| 💼 Tech, Real Estate, Agency & Backend APIs | **0** |
-| **Total Repositories with Live Business Domains** | **0** |
+| 🏨 Hotels, Resorts & Stays | **20** |
+| ✈️ Tours & Travel | **16** |
+| 🛵 Bike & Taxi Rentals | **8** |
+| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **10** |
+| 💼 Tech, Real Estate, Agency & Backend APIs | **12** |
+| **Total Repositories with Live Business Domains** | **66** |
 
 </div>
 <!-- DOMAIN-STATS-END -->
