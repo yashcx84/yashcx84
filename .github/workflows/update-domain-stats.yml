@@ -41,5 +41,6 @@ jobs:
             echo "No changes in domain counts."
           else
             git commit -m "chore(stats): auto-update live business domain counts [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
