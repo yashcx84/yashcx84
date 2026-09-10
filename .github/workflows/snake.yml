@@ -1,4 +1,4 @@
-name: Generate Contribution Activity Graph
+name: Generate Contribution Visualizations
 
 on:
   schedule:
@@ -32,6 +32,14 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: node scripts/generate-activity-graph.mjs
+
+      - name: Generate Snake SVG Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: yashcx84
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#d99b2a
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
