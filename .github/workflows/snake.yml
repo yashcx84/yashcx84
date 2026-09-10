@@ -10,6 +10,7 @@ on:
       - main
     paths:
       - '.github/workflows/snake.yml'
+      - 'scripts/generate-activity-graph.mjs'
 
 jobs:
   generate:
@@ -22,19 +23,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Activity Graph
-        uses: Ashutosh00710/github-readme-activity-graph@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: yashcx84
-          THEME: tokyo-night
-          CUSTOM_TITLE: Yash Jangid's Contribution Graph
-          AREA: true
+          node-version: 20
+
+      - name: Generate Activity Graph SVG
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-activity-graph.mjs
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: profile-cheat-sheet
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
