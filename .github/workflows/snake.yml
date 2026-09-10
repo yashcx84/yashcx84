@@ -1,4 +1,4 @@
-name: Generate Contribution Snake Animation
+name: Generate Contribution Visualizations
 
 on:
   schedule:
@@ -16,9 +16,12 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake SVG Animation
         uses: Platane/snk/svg-only@v3
         with:
@@ -26,6 +29,17 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#d99b2a
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: yashcx84
+
+      - name: Copy 3D graphs to dist
+        run: |
+          mkdir -p dist/3d
+          cp -r profile-3d-contrib/* dist/3d/ || true
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
