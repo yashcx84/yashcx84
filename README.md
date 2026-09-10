@@ -28,6 +28,25 @@
 ---
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&color=FFFFFF&center=true&vCenter=true&width=400&lines=LIVE+BUSINESS+PROJECTS" />
+</div>
+
+<div align="center">
+
+| Category / Section | Repository Count |
+| :--- | :---: |
+| 🏨 Hotels, Resorts & Stays | **20** |
+| ✈️ Tours & Travel | **16** |
+| 🛵 Bike & Taxi Rentals | **8** |
+| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **10** |
+| 💼 Tech, Real Estate, Agency & Backend APIs | **12** |
+| **Total Repositories with Live Business Domains** | **66** |
+
+</div>
+
+---
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&color=FFFFFF&center=true&vCenter=true&width=400&lines=ACTIVITY+%26+STATS" />
 </div>
 
