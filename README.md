@@ -34,14 +34,44 @@
 <!-- DOMAIN-STATS-START -->
 <div align="center">
 
-| Category / Section | Repository Count |
-| :--- | :---: |
-| 🏨 Hotels, Resorts & Stays | **0** |
-| ✈️ Tours & Travel | **2** |
-| 💼 Tech, Real Estate, Agency & Backend APIs | **0** |
-| 🛍️ Lifestyle, E-Commerce & Consumer Brands | **0** |
-| 🛵 Bike & Taxi Rentals | **0** |
-| **Total Repositories with Live Business Domains** | **2** |
+  <p align="center">
+    <img src="https://img.shields.io/badge/PRODUCTION_DEPLOYMENTS-66_LIVE_SITES-00C853?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0D1117" />
+  </p>
+
+  <table align="center">
+    <thead>
+      <tr bgcolor="#161b22">
+        <th align="left">&nbsp;&nbsp;<b>Industry Sector</b>&nbsp;&nbsp;</th>
+        <th align="center">&nbsp;&nbsp;<b>Active Repositories</b>&nbsp;&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&nbsp;&nbsp;🏨 <b>Hotels, Resorts & Luxury Stays</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/20_Live-D99B2A?style=for-the-badge&logo=hotel&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;✈️ <b>Tours, Travel & Holiday Packages</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/16_Live-3B82F6?style=for-the-badge&logo=compass&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;💼 <b>Tech Systems, Agency & Backend APIs</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/12_Live-8B5CF6?style=for-the-badge&logo=server&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;🛍️ <b>Lifestyle, E-Commerce & Brands</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/10_Live-EC4899?style=for-the-badge&logo=sparkles&logoColor=white" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;🛵 <b>Bike & Taxi Fleet Rentals</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/8_Live-10B981?style=for-the-badge&logo=speedtest&logoColor=white" /></td>
+      </tr>
+      <tr bgcolor="#161b22">
+        <td>&nbsp;&nbsp;🌐 <b>Total Live Business Domains</b>&nbsp;&nbsp;</td>
+        <td align="center"><img src="https://img.shields.io/badge/66_Total-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" /></td>
+      </tr>
+    </tbody>
+  </table>
 
 </div>
 <!-- DOMAIN-STATS-END -->
