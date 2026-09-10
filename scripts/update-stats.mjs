@@ -7,14 +7,27 @@ async function fetchAllRepos() {
   let page = 1;
   let all = [];
   while (true) {
-    const url = `https://api.github.com/user/repos?per_page=100&type=all&page=${page}`;
-    const res = await fetch(url, {
+    // Try authenticated user repos endpoint first
+    let url = `https://api.github.com/user/repos?per_page=100&type=all&page=${page}`;
+    let res = await fetch(url, {
       headers: {
         'User-Agent': 'node-fetch',
         'Authorization': `token ${token}`,
         'Accept': 'application/vnd.github.v3+json'
       }
     });
+
+    // If 403 or empty, fallback to public users endpoint
+    if (!res.ok) {
+      url = `https://api.github.com/users/yashcx84/repos?per_page=100&page=${page}`;
+      res = await fetch(url, {
+        headers: {
+          'User-Agent': 'node-fetch',
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+    }
+
     const data = await res.json();
     if (!Array.isArray(data) || data.length === 0) break;
     all = all.concat(data);
@@ -58,6 +71,15 @@ function categorizeRepo(repo) {
 
 async function main() {
   const repos = await fetchAllRepos();
+  console.log(`Fetched ${repos.length} total repositories.`);
+
+  // If token only has single repo scope (default GITHUB_TOKEN on a profile repo without PAT),
+  // don't overwrite the table with zeros.
+  if (repos.length <= 2) {
+    console.log('Skipping update: Only default GITHUB_TOKEN available without cross-repo PAT scope. Keeping current stats intact.');
+    return;
+  }
+
   const counts = { hotels: 0, tours: 0, rentals: 0, lifestyle: 0, tech: 0 };
 
   for (const r of repos) {
@@ -94,7 +116,7 @@ async function main() {
 
   const updatedContent = content.replace(regex, tableMarkdown);
   fs.writeFileSync(readmePath, updatedContent, 'utf8');
-  console.log('README.md successfully updated with latest counts:', counts);
+  console.log('README.md successfully updated with latest counts:', counts, 'Total:', total);
 }
 
 main().catch(err => {
