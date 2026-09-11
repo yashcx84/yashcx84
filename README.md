@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Yash+Jangid;Modern+Stack+Developer;Building+Real-World+Applications" alt="Typing SVG" />
 
   <p align="center">
-    <code>WEB APP DEVELOPER | NEXTJS • ASTRO | UI/UX ENTHUSIAST</code>
+    <code>WEB APP DEVELOPER | NEXTJS • TYPESCRIPT | UI/UX ENTHUSIAST</code>
   </p>
 
   <p align="center">
