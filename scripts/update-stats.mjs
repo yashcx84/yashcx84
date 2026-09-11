@@ -47,13 +47,13 @@ function categorizeRepo(repo) {
   const topics = Array.isArray(repo.topics) ? repo.topics.join(' ') : '';
   const text = `${repo.name} ${repo.description || ''} ${repo.homepage || ''} ${topics}`.toLowerCase();
 
-  if (/(hotel|resort|palace|stay|niwas|suite|retreat|residency|boutique|manor|kapish|astravista|yulia|rr62|sheerha)/i.test(text)) {
+  if (/(hotel|resort|palace|stay|niwas|suite|retreat|residency|boutique|manor|kapish|astravista|yulia|rr62|sheerha|baghajabgarh|kadambbagh|travasaa|house|mahal|hotal)/i.test(text)) {
     return 'hotels';
   }
   if (/(bike|rental|taxi|cab|activa|ride|rides)/i.test(text)) {
     return 'rentals';
   }
-  if (/(tour|tourism|travel|trip|kashmir|sikkim|manali|jaisalmer|rajasthanindiatrip|xploreindia|tourist)/i.test(text)) {
+  if (/(tour|tourism|travel|trip|kashmir|sikkim|manali|jaisalmer|rajasthanindiatrip|xploreindia|tourist|michell|havishe|universal)/i.test(text)) {
     return 'tours';
   }
   if (/(aroma|perfume|kalaagrah|noor|humaira|badasaab|wedding|pet|vaccine|healthcare|wellness)/i.test(text)) {
@@ -65,8 +65,8 @@ function categorizeRepo(repo) {
 async function main() {
   const repos = await fetchAllRepos();
 
-  if (repos.length <= 2) {
-    console.log('Skipping update: Only default token without multi-repo scope. Keeping current stats intact.');
+  if (repos.length < 25) {
+    console.log(`Skipping update: Only found ${repos.length} repos (expected 25+). GH_PAT may be missing or scoped to public repos only. Preserving current stats.`);
     return;
   }
 
