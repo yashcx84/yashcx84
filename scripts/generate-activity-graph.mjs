@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
+// TOKEN
 const token = process.env.GH_PAT || process.env.GITHUB_TOKEN;
 
+// FUNCTION TO FETCH CONTRIBUTIONS
 async function fetchContributions() {
   const query = `
     query {
