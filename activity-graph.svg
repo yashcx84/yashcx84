@@ -1,0 +1,186 @@
+<svg width="850" height="340" viewBox="0 0 850 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="850" height="340" rx="14" fill="#080c14" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Title -->
+  <text x="425" y="32" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" letter-spacing="0.5">
+    Yash Jangid's Contribution Graph
+  </text>
+
+  <!-- Y Axis Label -->
+  <text x="-170" y="20" text-anchor="middle" transform="rotate(-90)" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" letter-spacing="1">
+    Contribution
+  </text>
+
+  <!-- X Axis Label -->
+  <text x="437.5" y="328" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" letter-spacing="1">
+    Days
+  </text>
+
+  <!-- Grid & Ticks -->
+  
+      <text x="48" y="289" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">0</text>
+      <line x1="60" y1="285" x2="815" y2="285" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+      <text x="48" y="243" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">13</text>
+      <line x1="60" y1="239" x2="815" y2="239" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+      <text x="48" y="197" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">26</text>
+      <line x1="60" y1="193" x2="815" y2="193" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+      <text x="48" y="151" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">39</text>
+      <line x1="60" y1="147" x2="815" y2="147" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+      <text x="48" y="105" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">52</text>
+      <line x1="60" y1="101" x2="815" y2="101" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+      <text x="48" y="59" text-anchor="end" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">65</text>
+      <line x1="60" y1="55" x2="815" y2="55" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+    
+  
+      <text x="60" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">1</text>
+    
+      <text x="85.16666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">2</text>
+    
+      <text x="110.33333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">3</text>
+    
+      <text x="135.5" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">4</text>
+    
+      <text x="160.66666666666669" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">5</text>
+    
+      <text x="185.83333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">6</text>
+    
+      <text x="211" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">7</text>
+    
+      <text x="236.16666666666669" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">8</text>
+    
+      <text x="261.33333333333337" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">9</text>
+    
+      <text x="286.5" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">10</text>
+    
+      <text x="311.6666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">11</text>
+    
+      <text x="336.83333333333337" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">12</text>
+    
+      <text x="362" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">13</text>
+    
+      <text x="387.1666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">14</text>
+    
+      <text x="412.33333333333337" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">15</text>
+    
+      <text x="437.5" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">16</text>
+    
+      <text x="462.6666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">17</text>
+    
+      <text x="487.83333333333337" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">18</text>
+    
+      <text x="513" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">19</text>
+    
+      <text x="538.1666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">20</text>
+    
+      <text x="563.3333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">21</text>
+    
+      <text x="588.5" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">22</text>
+    
+      <text x="613.6666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">23</text>
+    
+      <text x="638.8333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">24</text>
+    
+      <text x="664" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">25</text>
+    
+      <text x="689.1666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">26</text>
+    
+      <text x="714.3333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">27</text>
+    
+      <text x="739.5" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">28</text>
+    
+      <text x="764.6666666666667" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">29</text>
+    
+      <text x="789.8333333333334" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">30</text>
+    
+      <text x="815" y="305" text-anchor="middle" fill="#64748b" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">31</text>
+    
+
+  <!-- Area Fill -->
+  <path d="M 60 221.30769230769232 C 72.58333333333334 221.30769230769232, 72.58333333333334 175.30769230769232, 85.16666666666667 175.30769230769232 C 97.75 175.30769230769232, 97.75 62.076923076923066, 110.33333333333334 62.076923076923066 C 122.91666666666667 62.076923076923066, 122.91666666666667 203.6153846153846, 135.5 203.6153846153846 C 148.08333333333334 203.6153846153846, 148.08333333333334 79.76923076923075, 160.66666666666669 79.76923076923075 C 173.25 79.76923076923075, 173.25 203.6153846153846, 185.83333333333334 203.6153846153846 C 198.41666666666669 203.6153846153846, 198.41666666666669 235.46153846153845, 211 235.46153846153845 C 223.58333333333334 235.46153846153845, 223.58333333333334 285, 236.16666666666669 285 C 248.75000000000003 285, 248.75000000000003 203.6153846153846, 261.33333333333337 203.6153846153846 C 273.9166666666667 203.6153846153846, 273.9166666666667 207.15384615384613, 286.5 207.15384615384613 C 299.08333333333337 207.15384615384613, 299.08333333333337 224.84615384615384, 311.6666666666667 224.84615384615384 C 324.25 224.84615384615384, 324.25 285, 336.83333333333337 285 C 349.4166666666667 285, 349.4166666666667 239, 362 239 C 374.58333333333337 239, 374.58333333333337 274.38461538461536, 387.1666666666667 274.38461538461536 C 399.75 274.38461538461536, 399.75 285, 412.33333333333337 285 C 424.9166666666667 285, 424.9166666666667 132.84615384615384, 437.5 132.84615384615384 C 450.08333333333337 132.84615384615384, 450.08333333333337 69.15384615384616, 462.6666666666667 69.15384615384616 C 475.25 69.15384615384616, 475.25 285, 487.83333333333337 285 C 500.4166666666667 285, 500.4166666666667 83.30769230769232, 513 83.30769230769232 C 525.5833333333334 83.30769230769232, 525.5833333333334 90.38461538461539, 538.1666666666667 90.38461538461539 C 550.75 90.38461538461539, 550.75 122.23076923076923, 563.3333333333334 122.23076923076923 C 575.9166666666667 122.23076923076923, 575.9166666666667 207.15384615384613, 588.5 207.15384615384613 C 601.0833333333334 207.15384615384613, 601.0833333333334 157.6153846153846, 613.6666666666667 157.6153846153846 C 626.25 157.6153846153846, 626.25 55, 638.8333333333334 55 C 651.4166666666667 55, 651.4166666666667 285, 664 285 C 676.5833333333334 285, 676.5833333333334 285, 689.1666666666667 285 C 701.75 285, 701.75 90.38461538461539, 714.3333333333334 90.38461538461539 C 726.9166666666667 90.38461538461539, 726.9166666666667 189.46153846153845, 739.5 189.46153846153845 C 752.0833333333334 189.46153846153845, 752.0833333333334 115.15384615384613, 764.6666666666667 115.15384615384613 C 777.25 115.15384615384613, 777.25 86.84615384615384, 789.8333333333334 86.84615384615384 C 802.4166666666667 86.84615384615384, 802.4166666666667 185.9230769230769, 815 185.9230769230769 L 815 285 L 60 285 Z" fill="url(#areaGradient)" />
+
+  <!-- Smooth Curve Line -->
+  <path d="M 60 221.30769230769232 C 72.58333333333334 221.30769230769232, 72.58333333333334 175.30769230769232, 85.16666666666667 175.30769230769232 C 97.75 175.30769230769232, 97.75 62.076923076923066, 110.33333333333334 62.076923076923066 C 122.91666666666667 62.076923076923066, 122.91666666666667 203.6153846153846, 135.5 203.6153846153846 C 148.08333333333334 203.6153846153846, 148.08333333333334 79.76923076923075, 160.66666666666669 79.76923076923075 C 173.25 79.76923076923075, 173.25 203.6153846153846, 185.83333333333334 203.6153846153846 C 198.41666666666669 203.6153846153846, 198.41666666666669 235.46153846153845, 211 235.46153846153845 C 223.58333333333334 235.46153846153845, 223.58333333333334 285, 236.16666666666669 285 C 248.75000000000003 285, 248.75000000000003 203.6153846153846, 261.33333333333337 203.6153846153846 C 273.9166666666667 203.6153846153846, 273.9166666666667 207.15384615384613, 286.5 207.15384615384613 C 299.08333333333337 207.15384615384613, 299.08333333333337 224.84615384615384, 311.6666666666667 224.84615384615384 C 324.25 224.84615384615384, 324.25 285, 336.83333333333337 285 C 349.4166666666667 285, 349.4166666666667 239, 362 239 C 374.58333333333337 239, 374.58333333333337 274.38461538461536, 387.1666666666667 274.38461538461536 C 399.75 274.38461538461536, 399.75 285, 412.33333333333337 285 C 424.9166666666667 285, 424.9166666666667 132.84615384615384, 437.5 132.84615384615384 C 450.08333333333337 132.84615384615384, 450.08333333333337 69.15384615384616, 462.6666666666667 69.15384615384616 C 475.25 69.15384615384616, 475.25 285, 487.83333333333337 285 C 500.4166666666667 285, 500.4166666666667 83.30769230769232, 513 83.30769230769232 C 525.5833333333334 83.30769230769232, 525.5833333333334 90.38461538461539, 538.1666666666667 90.38461538461539 C 550.75 90.38461538461539, 550.75 122.23076923076923, 563.3333333333334 122.23076923076923 C 575.9166666666667 122.23076923076923, 575.9166666666667 207.15384615384613, 588.5 207.15384615384613 C 601.0833333333334 207.15384615384613, 601.0833333333334 157.6153846153846, 613.6666666666667 157.6153846153846 C 626.25 157.6153846153846, 626.25 55, 638.8333333333334 55 C 651.4166666666667 55, 651.4166666666667 285, 664 285 C 676.5833333333334 285, 676.5833333333334 285, 689.1666666666667 285 C 701.75 285, 701.75 90.38461538461539, 714.3333333333334 90.38461538461539 C 726.9166666666667 90.38461538461539, 726.9166666666667 189.46153846153845, 739.5 189.46153846153845 C 752.0833333333334 189.46153846153845, 752.0833333333334 115.15384615384613, 764.6666666666667 115.15384615384613 C 777.25 115.15384615384613, 777.25 86.84615384615384, 789.8333333333334 86.84615384615384 C 802.4166666666667 86.84615384615384, 802.4166666666667 185.9230769230769, 815 185.9230769230769" fill="none" stroke="url(#lineGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Data Point Dots -->
+  
+      <circle cx="60" cy="221.30769230769232" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="85.16666666666667" cy="175.30769230769232" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="110.33333333333334" cy="62.076923076923066" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="135.5" cy="203.6153846153846" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="160.66666666666669" cy="79.76923076923075" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="185.83333333333334" cy="203.6153846153846" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="211" cy="235.46153846153845" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="236.16666666666669" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="261.33333333333337" cy="203.6153846153846" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="286.5" cy="207.15384615384613" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="311.6666666666667" cy="224.84615384615384" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="336.83333333333337" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="362" cy="239" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="387.1666666666667" cy="274.38461538461536" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="412.33333333333337" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="437.5" cy="132.84615384615384" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="462.6666666666667" cy="69.15384615384616" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="487.83333333333337" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="513" cy="83.30769230769232" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="538.1666666666667" cy="90.38461538461539" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="563.3333333333334" cy="122.23076923076923" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="588.5" cy="207.15384615384613" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="613.6666666666667" cy="157.6153846153846" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="638.8333333333334" cy="55" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="664" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="689.1666666666667" cy="285" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="714.3333333333334" cy="90.38461538461539" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="739.5" cy="189.46153846153845" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="764.6666666666667" cy="115.15384615384613" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="789.8333333333334" cy="86.84615384615384" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+      <circle cx="815" cy="185.9230769230769" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="2" />
+    
+</svg>
